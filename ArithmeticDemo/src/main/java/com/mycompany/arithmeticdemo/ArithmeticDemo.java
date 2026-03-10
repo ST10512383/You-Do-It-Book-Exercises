@@ -19,5 +19,8 @@ public class ArithmeticDemo {
         System.out.println("Please enter the second number -> ");
         secondNumber = input.nextInt();
         
+        sum = firstNumber + secondNumber;
+        difference = firstNumber + secondNumber;
+        average = sum / 2;
     }
 }
