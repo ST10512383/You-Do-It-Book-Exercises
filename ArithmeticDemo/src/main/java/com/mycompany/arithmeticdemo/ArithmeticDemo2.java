@@ -8,11 +8,11 @@ public class ArithmeticDemo2 {
             
         Scanner input = new Scanner(System.in);
         
-        int firstNumber;
-        int secondNumber;
-        int sum;
-        int difference;
-        int average;
+        double firstNumber;
+        double secondNumber;
+        double sum;
+        double difference;
+        double average;
         
         System.out.println("Please enter the fist number -> ");
         firstNumber = input.nextInt();
