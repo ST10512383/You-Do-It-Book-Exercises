@@ -18,7 +18,10 @@ public class IntegerDemoInteractiveWithName {
         System.out.print("Please enter a Byte integer > ");
         aByte = userInput.nextByte();
         
-        System.out.print("Please enter a Short integer > ");
+        System.out.println("Please enter a Short integer > ");
+        aShort = userInput.nextShort();
+        
+        System.out.print("Please enter a Long integer > ");
         aLong = userInput.nextLong();
         
         System.out.print("Please enter your name > ");
