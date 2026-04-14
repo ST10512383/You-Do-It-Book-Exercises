@@ -16,6 +16,11 @@ public class CreateSpaServices {
         
         // Instantiate Scanner to take keyboard input from user
         Scanner userInput = new Scanner(System.in);
+        
+        // Prompt the user for input using Scanner
+        System.out.println("Enter Service >> ");
+        service = userInput.nextLine();
+        System.out.println("Enter Price >> ");
+        price = userInput.nextDouble();
     }
-    
 }
