@@ -49,5 +49,16 @@ public class CreateSpaServices {
         secondService.setServiceDescription(service);
         // Call secondService object and pass price variable to setPrice method
         secondService.setPrice(price);
+        
+        /*
+        ======== Display Service Objects ========
+        */
+        // Display firstService details
+        System.out.println("First service details: ");
+        System.out.println(firstService.getServiceDescription() + " $" + firstService.getPrice());
+        
+        // Display secondService details
+        System.out.println("First service details: ");
+        System.out.println(firstService.getServiceDescription() + " $" + firstService.getPrice());
     }
 }
