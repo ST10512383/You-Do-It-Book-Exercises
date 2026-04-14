@@ -17,6 +17,10 @@ public class CreateSpaServices {
         // Instantiate Scanner to take keyboard input from user
         Scanner userInput = new Scanner(System.in);
         
+        /*
+        ======== firstService ========
+        */
+        
         // Prompt the user for input using Scanner
         System.out.println("Enter Service >> ");
         service = userInput.nextLine();
@@ -27,5 +31,23 @@ public class CreateSpaServices {
         firstService.setServiceDescription(service);
         // Call firstService object and pass price variable to setPrice method
         firstService.setPrice(price);
+        
+        /*
+        ======== secondService ========
+        */
+        
+        // Clear input buffer
+        userInput.nextLine();
+        
+        // Prompt the user for input using Scanner
+        System.out.println("Enter Service >> ");
+        service = userInput.nextLine();
+        System.out.println("Enter Price >> ");
+        price = userInput.nextDouble();
+        
+        // Call secondService object and pass service variable to setServiceDescription method
+        secondService.setServiceDescription(service);
+        // Call secondService object and pass price variable to setPrice method
+        secondService.setPrice(price);
     }
 }
