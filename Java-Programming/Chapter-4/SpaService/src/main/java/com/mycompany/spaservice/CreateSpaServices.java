@@ -9,4 +9,9 @@ public class CreateSpaServices {
         // Declare variables
         String service;
         double price;
+        
+        // Instantiate two service objects
+        SpaService firstService = new SpaService();
+        SpaService secondService = new SpaService();
+        
 }
